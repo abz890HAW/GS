@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root text="main" comment="&#34;&#34;" type="program" style="nice">
+ <children>
+
+<instruction text="init();" comment="&#34;&#34;" color="FFFFFF"></instruction>
+<while text="True" comment="&#34;&#34;" color="FFFFFF">
+ <qWhile>
+
+<instruction text="getInput();" comment="&#34;&#34;" color="FFFFFF"></instruction>
+<case text="input,+,-,*,/,p,f,c,d,r,else" comment="&#34;&#34;" color="FFFFFF">
+<qCase>
+
+<instruction text="add();" comment="&#34;&#34;" color="FFFFFF"></instruction>
+</qCase>
+<qCase>
+
+<instruction text="sub();" comment="&#34;&#34;" color="FFFFFF"></instruction>
+</qCase>
+<qCase>
+
+<instruction text="mul();" comment="&#34;&#34;" color="FFFFFF"></instruction>
+</qCase>
+<qCase>
+
+<instruction text="div();" comment="&#34;&#34;" color="FFFFFF"></instruction>
+</qCase>
+<qCase>
+
+<instruction text="print_first();" comment="&#34;&#34;" color="FFFFFF"></instruction>
+</qCase>
+<qCase>
+
+<instruction text="print_all();" comment="&#34;&#34;" color="FFFFFF"></instruction>
+</qCase>
+<qCase>
+
+<instruction text="clear();" comment="&#34;&#34;" color="FFFFFF"></instruction>
+</qCase>
+<qCase>
+
+<instruction text="duplicate();" comment="&#34;&#34;" color="FFFFFF"></instruction>
+</qCase>
+<qCase>
+
+<instruction text="swtich();" comment="&#34;&#34;" color="FFFFFF"></instruction>
+</qCase>
+<qCase>
+
+<alternative text="&#34;0x30 &#60;= input &#60;= 0x39&#34;" comment="&#34;&#34;" color="FFFFFF">
+ <qTrue>
+
+<instruction text="concat" comment="&#34;&#34;" color="FFFFFF"></instruction>
+ </qTrue>
+ <qFalse>
+
+<instruction text="&#34;&#34;" comment="&#34;&#34;" color="FFFFFF"></instruction>
+ </qFalse>
+</alternative>
+</qCase>
+</case>
+ </qWhile>
+</while>
+ </children>
+</root>
